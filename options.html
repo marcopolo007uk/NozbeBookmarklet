@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nozbe bookmarklet Chrome extension</title>
+	<style type="text/css">
+	@font-face {
+		font-family: 'OpenSans';
+		src: url('OpenSans-Regular.ttf');
+	}
+	* { font-family: OpenSans; }
+	input { padding: 1px 5px; }
+	</style>
+</head>
+<body>
+	<div style="width: 400px; margin: 10% auto; border: solid 2px gray; padding: 20px; box-shadow: 2px 2px 10px  #ccc; border-radius: 10px ">
+	<center><h3 style="margin-top: 0"> The Productive Wizard <br> Nozbe bookmarklet/extension </h3></center>
+	<center> <img src="icon-128.png" alt="Nozbe Icon"></center>
+	<p> You will need your Nozbe API key, this key is unique to your Nozbe login, keep it safe!</p>
+	<p> You can find it by visiting your <a href="https://webapp.nozbe.com/account/new#Settings" target="_blank">classic Nozbe settings</a></p>
+	<center><a href="https://webapp.nozbe.com/account/new#Settings" target="_blank"><img src="APIkey.jpg" alt="APIGraphic" ></a></center>
+	<p> Copy and paste your Nozbe API key into the box below and click save. </p>
+		<label>
+		<label> <center><input type="text" id="key" placeholder="Enter your Nozbe API Key" size="25"> </label>
+	</label>
+	<label>
+		<button id="save"> Save </button>
+	</center></label>
+	</div>
+</body>	
+	<script type="text/javascript" src="options.js"></script>
+</html>
